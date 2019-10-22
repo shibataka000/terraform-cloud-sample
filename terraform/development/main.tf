@@ -3,5 +3,6 @@ provider "aws" {
 }
 
 module "main" {
+  source = "../modules"
   name = "terraform-cloud-sample-dev"
 }
